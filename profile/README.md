@@ -1,20 +1,15 @@
 <div align="center">
   <a href="https://github.com/OpenBrowserCompany">
-    <img src="../assets/branding/company-banner/company-banner-1600x720.png" alt="The Open Browser Company" width="100%">
+    <img src="../assets/branding/browser-icon/browser-icon-256.png" width="80" alt="The Open Browser Company">
   </a>
+  <h2 align="center">The Open Browser Company</h2>
+  <p align="center"><sub>Independent software company building open-source browsers and tools for a better web.</sub></p>
+  <p align="center">
+    <a href="https://github.com/OpenBrowserCompany/CATOPTRIC"><strong>Explore the browser</strong></a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/orgs/OpenBrowserCompany/repositories">All repositories</a>
+  </p>
 </div>
-
-<h1 align="center">A better web, built in the open.</h1>
-
-<p align="center">
-  <strong>The Open Browser Company</strong> is an independent software company building open-source browsers and tools for a better web.
-</p>
-
-<p align="center">
-  <a href="https://github.com/OpenBrowserCompany/CATOPTRIC"><strong>Explore our browser</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/orgs/OpenBrowserCompany/repositories">All repositories</a>
-</p>
 
 <p align="center"><sub>INDEPENDENT &nbsp;·&nbsp; OPEN SOURCE &nbsp;·&nbsp; BUILT FOR THE WEB</sub></p>
 

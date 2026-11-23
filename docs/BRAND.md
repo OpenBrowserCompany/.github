@@ -15,7 +15,7 @@ The supplied artwork in `assets/branding/originals/` is the source of truth. Tho
 
 | Path | Size | Purpose |
 | --- | --- | --- |
-| `company-banner/company-banner-1600x720.png` | 1600 × 720 | Organization profile README header. Cropped for a tighter hero; no stretching. |
+| `company-banner/company-banner-1600x720.png` | 1600 × 720 | Compact derivative of the company banner used as the brand mark in the organization profile README. The full-width marketing banner lives in `originals/` and feeds the social preview. |
 | `company-banner/social-preview-1280x640.png` | 1280 × 640 | Repository social preview. Aspect-correct 2:1 crop. |
 | `browser-icon/browser-icon-512.png` | 512 × 512 | Application icon, high resolution. |
 | `browser-icon/browser-icon-256.png` | 256 × 256 | Application icon, standard resolution. |
