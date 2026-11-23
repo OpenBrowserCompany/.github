@@ -1,0 +1,19 @@
+name: Validate references
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdown:
+    name: Check local Markdown links and images
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify local references
+        run: python3 scripts/check_markdown.py
