@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/OpenBrowserCompany">
-    <img src="../assets/branding/browser-icon/browser-icon-256.png" width="80" alt="The Open Browser Company">
+    <img src="assets/branding/company-banner/social-preview-1280x640.png" width="8000" alt="The Open Browser Company">
   </a>
   <h2 align="center">The Open Browser Company</h2>
   <p align="center"><sub>Independent software company building open-source browsers and tools for a better web.</sub></p>
