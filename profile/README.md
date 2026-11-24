@@ -3,7 +3,7 @@
     <img src="../assets/branding/browser-icon/browser-icon-256.png" width="80" alt="The Open Browser Company">
   </a>
   <h2 align="center">The Open Browser Company</h2>
-  <p align="center"><sub>Independent software company building open-source browsers and tools for a better web.</sub></p>
+  <p align="center"><sub>Independent software company building open-source browsers and tools for a better web. (WE ARE A FORK OF ARDIA, BUT WE JUST RN WE HAVEN"T PUSHED THE CODE TO THE APP JUST YET)</sub></p>
   <p align="center">
     <a href="https://github.com/OpenBrowserCompany/CATOPTRIC"><strong>Explore the browser</strong></a>
     &nbsp;·&nbsp;
@@ -12,7 +12,7 @@
 </div>
 
 <p align="center"><sub>INDEPENDENT &nbsp;·&nbsp; OPEN SOURCE &nbsp;·&nbsp; BUILT FOR THE WEB</sub></p>
-
+ 
 ---
 
 ## What we build
