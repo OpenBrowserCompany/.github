@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Open Browser Company — Built for the web</title>
+  <meta name="description" content="Independent software company building open-source browsers and tools for a better web." />
+  <link rel="icon" type="image/png" href="../assets/branding/browser-icon/favicon-32.png" />
+  <link rel="apple-touch-icon" href="../assets/branding/browser-icon/apple-touch-icon-180.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Scroll progress -->
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <!-- Ambient particle canvas -->
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <!-- Intro loader -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__mark">
+      <img src="../assets/branding/browser-icon/browser-icon-256.png" alt="" />
+      <span class="loader__ring"></span>
+    </div>
+    <div class="loader__bar"><i></i></div>
+  </div>
+
+  <!-- Nav -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top">
+      <img src="../assets/branding/browser-icon/browser-icon-128.png" alt="" class="nav__logo" />
+      <span>The Open Browser Company</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#build">What we build</a>
+      <a href="#project">Projects</a>
+      <a href="#mark">The mark</a>
+      <a href="https://github.com/OpenBrowserCompany" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">GitHub ↗</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Menu"><i></i><i></i></button>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="hero__mark" id="heroMark">
+        <div class="orbit orbit--a" aria-hidden="true"></div>
+        <div class="orbit orbit--b" aria-hidden="true"></div>
+        <div class="hero__icon" id="heroIcon">
+          <img src="../assets/branding/browser-icon/browser-icon-512.png" alt="The Open Browser Company logo" />
+          <span class="sheen" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <p class="hero__eyebrow reveal">Independent · Open source · Built for the web</p>
+      <h1 class="hero__title" aria-label="A better web, built in the open.">
+        <span class="line"><span class="word" data-split>A better web,</span></span>
+        <span class="line"><span class="word word--chrome" data-split>built in the open.</span></span>
+      </h1>
+      <p class="hero__sub reveal">
+        We build a Chromium-based browser shaped around a sidebar-first interface
+        and a calmer relationship with the web — with the code, the issues, and the
+        rough edges all in public.
+      </p>
+      <div class="hero__cta reveal">
+        <a class="btn btn--primary" href="https://github.com/OpenBrowserCompany/CATOPTRIC" target="_blank" rel="noopener">Explore the browser</a>
+        <a class="btn btn--ghost" href="#build">What we build</a>
+      </div>
+
+      <a class="scroll-cue" href="#build" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Independent</span><i>✦</i><span>Open source</span><i>✦</i><span>Built for the web</span><i>✦</i>
+        <span>Sidebar first</span><i>✦</i><span>Chromium</span><i>✦</i><span>macOS</span><i>✦</i>
+        <span>Independent</span><i>✦</i><span>Open source</span><i>✦</i><span>Built for the web</span><i>✦</i>
+        <span>Sidebar first</span><i>✦</i><span>Chromium</span><i>✦</i><span>macOS</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- What we build -->
+    <section class="section" id="build">
+      <div class="section__head">
+        <p class="kicker reveal">01 — What we build</p>
+        <h2 class="reveal">Small software,<br />wide open.</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal" data-tilt>
+          <div class="card__icon">
+            <img src="../assets/branding/browser-icon/browser-icon-256.png" alt="" />
+          </div>
+          <h3>Browsers</h3>
+          <p>A Chromium-based browser for macOS, shaped around a sidebar-first interface and a calmer relationship with the web.</p>
+          <a href="https://github.com/OpenBrowserCompany/CATOPTRIC" target="_blank" rel="noopener">CATOPTRIC →</a>
+        </article>
+
+        <article class="card reveal" data-tilt>
+          <div class="card__icon card__icon--dark">
+            <img src="../assets/branding/documentation/documentation-mark-light-512.png" alt="" />
+          </div>
+          <h3>Tools</h3>
+          <p>Focused utilities and developer tooling that support the browser and the people building on the open web.</p>
+          <a href="https://github.com/orgs/OpenBrowserCompany/repositories" target="_blank" rel="noopener">Repositories →</a>
+        </article>
+
+        <article class="card reveal" data-tilt>
+          <div class="card__icon card__icon--dark">
+            <img src="../assets/branding/watermark/watermark-dark-512.png" alt="" />
+          </div>
+          <h3>Open foundations</h3>
+          <p>Public code, readable documentation, and contributions back to the projects we depend on.</p>
+          <a href="CONTRIBUTING.md">Contribute →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Showcase / parallax banner -->
+    <section class="showcase" id="project">
+      <div class="showcase__frame reveal">
+        <img class="showcase__img" id="parallaxImg"
+             src="../assets/branding/company-banner/social-preview-1280x640.png"
+             alt="The Open Browser Company banner" />
+        <span class="showcase__shine" aria-hidden="true"></span>
+      </div>
+      <div class="showcase__body">
+        <p class="kicker reveal">02 — Projects</p>
+        <h2 class="reveal">CATOPTRIC</h2>
+        <p class="reveal">
+          A free, Chromium-based browser for macOS with a sidebar-first interface.
+          The source is public — the code, the issues, the trade-offs, and the
+          rough edges. We would rather ship a smaller thing in the open than a
+          polished thing behind a wall.
+        </p>
+        <div class="tags reveal">
+          <span>Chromium</span><span>macOS</span><span>TypeScript</span><span>MIT</span>
+        </div>
+        <a class="btn btn--primary reveal" href="https://github.com/OpenBrowserCompany/CATOPTRIC" target="_blank" rel="noopener">View the repository →</a>
+      </div>
+    </section>
+
+    <!-- The mark, in motion -->
+    <section class="section mark" id="mark">
+      <div class="section__head">
+        <p class="kicker reveal">03 — The mark</p>
+        <h2 class="reveal">Our logo,<br />in motion.</h2>
+        <p class="section__lede reveal">Click the mark to cycle its animations — chrome sheen, orbit, pulse, and tilt.</p>
+      </div>
+
+      <div class="mark__stage reveal">
+        <button class="mark__btn" id="markBtn" aria-label="Animate logo">
+          <div class="mark__halo" aria-hidden="true"></div>
+          <div class="mark__icon" id="stageIcon">
+            <img src="../assets/branding/browser-icon/browser-icon-512.png" alt="Animated company logo" />
+            <span class="sheen" aria-hidden="true"></span>
+          </div>
+        </button>
+        <div class="mark__meta">
+          <span class="mark__label" id="markLabel">Chrome sheen</span>
+          <div class="mark__dots" id="markDots" aria-hidden="true">
+            <i class="is-on"></i><i></i><i></i><i></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="swatches reveal">
+        <figure class="swatch swatch--dark">
+          <img src="../assets/branding/watermark/watermark-light-512.png" alt="White mark on dark" />
+          <figcaption>Watermark · dark surfaces</figcaption>
+        </figure>
+        <figure class="swatch swatch--light">
+          <img src="../assets/branding/watermark/watermark-dark-512.png" alt="Dark mark on light" />
+          <figcaption>Watermark · light surfaces</figcaption>
+        </figure>
+        <figure class="swatch swatch--dark">
+          <img src="../assets/branding/documentation/documentation-mark-dark-512.png" alt="Documentation mark on dark" />
+          <figcaption>Documentation mark</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Principles ticker -->
+    <section class="principles">
+      <div class="principles__row reveal"><span>01</span><p>The browser is too important to be a black box.</p></div>
+      <div class="principles__row reveal"><span>02</span><p>We work in public — code, issues, trade-offs, rough edges.</p></div>
+      <div class="principles__row reveal"><span>03</span><p>Every repository is an invitation, not a storefront.</p></div>
+      <div class="principles__row reveal"><span>04</span><p>Each project carries its own license. Contributions flow upstream.</p></div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="cta__mark" aria-hidden="true">
+        <img src="../assets/branding/browser-icon/browser-icon-512.png" alt="" />
+      </div>
+      <h2 class="reveal">Build with us.</h2>
+      <p class="reveal">We are early, and the work is out in the open. There is a place to start.</p>
+      <div class="hero__cta reveal">
+        <a class="btn btn--primary" href="https://github.com/OpenBrowserCompany" target="_blank" rel="noopener">Open on GitHub</a>
+        <a class="btn btn--ghost" href="CONTRIBUTING.md">Contributing guide</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand">
+      <img src="../assets/branding/browser-icon/browser-icon-128.png" alt="" />
+      <div>
+        <strong>The Open Browser Company</strong>
+        <p>Independent. Open source. Built for the web.</p>
+      </div>
+    </div>
+    <nav class="footer__links" aria-label="Footer">
+      <a href="https://github.com/OpenBrowserCompany" target="_blank" rel="noopener">GitHub</a>
+      <a href="CONTRIBUTING.md">Contributing</a>
+      <a href="SECURITY.md">Security</a>
+      <a href="SUPPORT.md">Support</a>
+    </nav>
+    <img class="footer__watermark" src="../assets/branding/watermark/watermark-light-128.png" alt="" />
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
